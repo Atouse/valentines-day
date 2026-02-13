@@ -1,7 +1,7 @@
 {
   "name": "valentines-day-ask",
   "version": "0.1.0",
-  "homepage": "https://pleboa.github.io/valentines-day-card",
+  "homepage": "https://atouse.github.io/valentines-day-card",
   "private": true,
   "dependencies": {
     "cra-template": "1.2.0",
