@@ -1,0 +1,99 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+#prompt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* or any specific height */
+  flex-direction: column; /* Stacks children vertically */
+}
+
+#heart {
+  width: 400px;
+  height: 400px;
+  top: 0;
+  left: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between; /* Pushes images to sides */
+  align-items: center; /* Centers text vertically */
+}
+
+body{
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: linear-gradient(to top, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
+  margin:0;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.valentine-button {
+  background-color: #ff6f91; /* Valentine's pink */
+  color: white;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.valentine-button:hover {
+  background-color: #ff3e6c; /* Darker pink on hover */
+  transform: scale(1.1); /* Slight zoom effect */
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+#output {
+    font-family: 'Great Vibes', cursive; /* Romantic script font */
+    font-size: 48px;
+    color: #e91e63; /* Valentine's pink */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    background: linear-gradient(90deg, #ff6f91, #ff3e6c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; /* Gradient text effect */
+    text-align: center;
+    margin-top: 20%;
+}
