@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/valentines-day-card/static/css/main.4602b5f8.css",
-    "main.js": "/valentines-day-card/static/js/main.c79faf85.js",
-    "static/media/heart.gif": "/valentines-day-card/static/media/heart.f41087e6997c937303d9.gif",
-    "static/media/logo.svg": "/valentines-day-card/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/valentines-day-card/index.html",
-    "main.4602b5f8.css.map": "/valentines-day-card/static/css/main.4602b5f8.css.map",
-    "main.c79faf85.js.map": "/valentines-day-card/static/js/main.c79faf85.js.map"
+    "main.css": "/valentines-day/static/css/main.4602b5f8.css",
+    "main.js": "/valentines-day/static/js/main.be59a735.js",
+    "static/media/heart.gif": "/valentines-day/static/media/heart.f41087e6997c937303d9.gif",
+    "static/media/logo.svg": "/valentines-day/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/valentines-day/index.html",
+    "main.4602b5f8.css.map": "/valentines-day/static/css/main.4602b5f8.css.map",
+    "main.be59a735.js.map": "/valentines-day/static/js/main.be59a735.js.map"
   },
   "entrypoints": [
     "static/css/main.4602b5f8.css",
-    "static/js/main.c79faf85.js"
+    "static/js/main.be59a735.js"
   ]
 }
